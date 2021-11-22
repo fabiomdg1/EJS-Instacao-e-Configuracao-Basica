@@ -73,8 +73,8 @@ Dentro deste arquivo pode conter um html simples com um texto, por exemplo:</br>
 ****
 
 ### Criando as Rotas de Acesso
-Sempre que for digitado no navegador ***http://localhost:3000***<br/>
-O EJS irá renderizar a página ***index.ejs***
+Sempre que for digitado no navegador localhost:3000/<br/>
+O EJS irá renderizar a página index.ejs
 
 ```jsx
 app.get('/',function (req,res){
@@ -103,6 +103,6 @@ npm app.js
 ### Testando
 Acessar o navegador e digitar o endereço
 
-localhost:3000
+***http://localhost:3000***
 
 **Pronto. a primeira parte está concluída**
