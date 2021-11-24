@@ -1,5 +1,13 @@
 # Configuração Básica do ambiente para trabalhar com EJS
-### Inicializando um Projeto
+### Contexo
+O objetivo é mostrar como iniciar um projeto do zero e configurar o ambiente para prosseguir com os demais recursos do ejs.<br/>
+Nesta configuração iremos configurar o mínimo necessário para que ele funcione, afim de facilitar o entendimento.<br/>
+Para isso, iremos instalar as dependências:
+- Express
+- EJS
+***
+
+### Inicializando o Projeto
 Crie uma pasta chamada **pastaEjs** ou outro nome de sua preferência.<br/>
 Abra no VScode(ou um editor de sua preferência) e em seguida, abra a pasta do projeto que acabamos de criar.
 
