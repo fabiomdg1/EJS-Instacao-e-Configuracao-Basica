@@ -1,6 +1,6 @@
 # Configuração Básica do ambiente para trabalhar com EJS
 ### Inicializando um Projeto
-Crie uma pasta chamada **pastaEjs** ou outro nome de sua preferência. 
+Crie uma pasta chamada **pastaEjs** ou outro nome de sua preferência.<br/>
 Abra no VScode(ou um editor de sua preferência) e em seguida, abra a pasta do projeto que acabamos de criar.
 
 Em seguida, abra o Terminal do VScode clicando em New Terminal.<br/>
