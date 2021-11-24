@@ -9,7 +9,7 @@ npm init -y
 ```
 Este comando faz com que seja criado o arquivo **package.json,** que tem a função de gerenciar os  pacotes JavaScript utilizados no projeto.
 ****
-### Instalação de Dependências
+### Instalando as Dependências
 
 Vamos instalar o módulo express, que é utilizado para criação de rotas.
 E também o ejs, que é o responsável pela engine EJS.<br/>
@@ -22,7 +22,7 @@ npm install ejs
 ****
 
 
-### Importação dos Módulos
+### Importando os Módulos
 
 Vamos importar os módulos instalados para dentro do projeto.<br/>
 Para isso, dentro da pasta raiz do projeto, crie um arquivo chamado **app.js.**<br/>
