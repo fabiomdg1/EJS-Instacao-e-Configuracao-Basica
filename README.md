@@ -26,7 +26,7 @@ O **-y**  Apenas confirma com Sim (yes), todas as perguntas que a instalação f
 O EJS precisa de algumas dependências(módulos) para funcionar corretamente.
 Caso você esteja iniciando um projeto do zero, estas dependências não estarão instaladas. 
 
-Vamos instalar então o módulo express, que é utilizado para criação de rotas.
+Então, vamos instalar o módulo express, que é utilizado para criação de rotas.<br/>
 E também o ejs, que é o responsável pela engine EJS.<br/>
 Com o terminal do VScode aberto, digite os seguintes comandos:
 
@@ -44,9 +44,9 @@ npm install express ejs
 
 ### Importando os Módulos
 
-Vamos importar os módulos instalados para dentro do projeto.<br/>
-Para isso, dentro da pasta raiz do projeto, crie um arquivo chamado **app.js.**<br/>
-Dentro deste arquivo, insira o seguinte código:
+Vamos importar os módulos que acabamos de instalar (Express e EJS) para dentro do projeto.<br/>
+Para isso, dentro da pasta que criamos com o nome **pastaEjs**, crie um arquivo chamado **app.js.**<br/>
+Abra este arquivo no VScode e insira o seguinte código:
 
 ```jsx
 const express = require('express')
@@ -55,19 +55,20 @@ const path = require('path')
 ****
 
 ### Criando Instância
-Criamos uma instância do módulo express para poder utilizar seus recursos dentro do projeto.
-
+Para que possamos utilizar os resursos disponíveis no Express que acabamos de instalar, precisamos criar uma instância.<br/>
+Criando uma instância chamada app.
 ```jsx
 const app = express()
 ```
 
 ### Definindo a Porta
-
-Não é obrigatório, mas podemos criar uma variável e definir a porta de acesso ao servidor.
+Depois de configurado o servidor, iremos testar nossa aplicação, acessando as página através do endereço http://localhost:número_da_porta que foi específicada no código.<br/>
+Não é obrigatório, mas podemos criar uma variável para guardar esta porta.
 
 ```jsx
 const port = 3000
 ```
+O endereço então ficaria desta forma no browser, http://localhost:3000
 ****
 
 ### Definindo a Engine
