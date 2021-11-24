@@ -29,8 +29,13 @@ E também o ejs, que é o responsável pela engine EJS.<br/>
 Com o terminal do VScode aberto, digite os seguintes comandos:
 
 ```jsx
+//Podemos instalar um por vez
 npm install express
 npm install ejs
+
+
+//Ou então podemos instalar os dois na mesma linha de comando, dando apenas um espaço entre os nomes das dependências.
+npm install express ejs
 ```
 ****
 
