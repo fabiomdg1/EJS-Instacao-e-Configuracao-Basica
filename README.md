@@ -10,8 +10,10 @@ npm init -y
 Este comando faz com que seja criado o arquivo **package.json,** que tem a função de gerenciar os  pacotes JavaScript utilizados no projeto.
 ****
 ### Instalando as Dependências
+O EJS precisa de algumas dependências(módulos) para funcionar corretamente.
+Caso você esteja iniciando um projeto do zero, estas dependências não estarão instaladas. 
 
-Vamos instalar o módulo express, que é utilizado para criação de rotas.
+Vamos instalar então o módulo express, que é utilizado para criação de rotas.
 E também o ejs, que é o responsável pela engine EJS.<br/>
 Com o terminal do VScode aberto, digite os seguintes comandos:
 
