@@ -1,9 +1,12 @@
 # Configuração Básica do ambiente para trabalhar com EJS
-### Inicializar o Projeto
+### Inicializando um Projeto
+Crie uma pasta chamada **pastaEjs** ou outro nome de sua preferência. 
+Abra no VScode(ou um editor de sua preferência) e em seguida, abra a pasta do projeto que acabamos de criar.
 
-Abra no VScode a pasta do projeto, depois abra um novo terminal.
+Em seguida, abra o Terminal do VScode clicando em New Terminal.<br/>
+![image](https://user-images.githubusercontent.com/34406468/143259248-c25d7dcc-4a0b-4bf6-a7e7-02be1482b4d5.png)<br/>
 
-Digite o seguinte código para criar a inicialização do projeto na pasta raiz.
+No terminal, digite o seguinte código para criar a inicialização do projeto na pasta raiz.
 ```jsx
 npm init -y
 ```
