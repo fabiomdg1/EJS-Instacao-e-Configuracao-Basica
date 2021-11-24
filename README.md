@@ -1,8 +1,8 @@
 # Configuração Básica do ambiente para trabalhar com EJS
 ### Contexo
 O objetivo é mostrar como iniciar um projeto do zero e configurar o ambiente para prosseguir com os demais recursos do ejs.<br/>
-Nesta configuração iremos configurar o mínimo necessário para que ele funcione, afim de facilitar o entendimento.<br/>
-Para isso, iremos instalar as dependências:
+Iremos configurar o mínimo necessário para que o EJS funcione, afim de facilitar o entendimento.<br/>
+Para isso, iremos instalar as seguintes dependências:
 - Express
 - EJS
 ***
