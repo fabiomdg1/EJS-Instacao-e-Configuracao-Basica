@@ -14,12 +14,13 @@ Abra no VScode(ou um editor de sua preferência) e em seguida, abra a pasta do p
 Em seguida, abra o Terminal do VScode clicando em New Terminal.<br/>
 ![image](https://user-images.githubusercontent.com/34406468/143259248-c25d7dcc-4a0b-4bf6-a7e7-02be1482b4d5.png)<br/>
 
-No terminal, digite o seguinte código para criar a inicialização do projeto na pasta raiz.
+No terminal, digite o seguinte comando para criar a inicialização do projeto na pasta raiz.
 ```jsx
 npm init -y
 ```
-O **NPM** (Node Package Manager), é um gerenciador de pacotes que faz parte do Noje.js.
-Este comando acima faz com que seja criado o arquivo **package.json,** que tem a função de gerenciar os  pacotes JavaScript utilizados no projeto.
+O **NPM** (Node Package Manager), é um gerenciador de pacotes que faz parte do Noje.js.<br/>
+O **init** Inicializa a pasta criando o arquivo **package.json,** que tem a função de gerenciar os  pacotes JavaScript utilizados no projeto.<br/>
+O **-y** Apenas confirma com Sim (yes), todas as perguntas que a instalação faria caso você não colocasse este parâmetro.
 ****
 ### Instalando as Dependências
 O EJS precisa de algumas dependências(módulos) para funcionar corretamente.
