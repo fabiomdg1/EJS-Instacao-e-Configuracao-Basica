@@ -18,9 +18,9 @@ No terminal, digite o seguinte comando para criar a inicialização do projeto n
 ```jsx
 npm init -y
 ```
-O **NPM** (Node Package Manager), é um gerenciador de pacotes que faz parte do Noje.js.<br/>
+O **NPM**  (Node Package Manager), é um gerenciador de pacotes que faz parte do Noje.js.<br/>
 O **init** Inicializa a pasta criando o arquivo **package.json,** que tem a função de gerenciar os  pacotes JavaScript utilizados no projeto.<br/>
-O **-y** Apenas confirma com Sim (yes), todas as perguntas que a instalação faria caso você não colocasse este parâmetro.
+O **-y**  Apenas confirma com Sim (yes), todas as perguntas que a instalação faria caso você não colocasse este parâmetro.
 ****
 ### Instalando as Dependências
 O EJS precisa de algumas dependências(módulos) para funcionar corretamente.
